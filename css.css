@@ -1,140 +1,230 @@
-.container{
-    margin: 2px;
-    padding: 2px;
-    background-color: violet;
-}
-.content{
-    background-color: bisque;
-    color: black;
-    width: 250px;
-    height: 400px;
-    margin-left: 200px;
-    padding-top: 50px;
+*{
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    text-align: center;
-    border-radius: 10px;
-    display: grid;
-}
-.img{
-    margin-bottom: 100px;
+  }
+  body{
+    font-family: sans-serif;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
     margin-left: 20px;
-}
-
-.al{
-    background-color: orangered;
+  }
+  
+   .container2{
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-size: large;
+    background-color: brown;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+   }
+  
+   .fan{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: -400px; 
+    margin-right: 30px;
+  
+   }
+  
+   .fan h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700px;
+    font-size: 50px;
+   }
+  
+   .box{
+    height: 60px;
+    width: 300px;
+    background-color:hsl(321, 100%, 78%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 60px;
+    font-size: 20px;
+  
+   }
+  
+   
+   .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 30px; 
+    margin-right: 30px;
+    margin-top: 130px;
+   }
+  
+  .show1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-right: -10px;
+  }
+  .show1 h1{
+    font-size: 60px;
+    margin-right: -10px;
+  
+  }
+  .lorem{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    font-size: larger;
     color: black;
-    width: 250px;
-    height: 400px;
+    padding-left: 200px;
+  }
+  
+  .people{
+    margin-left: 800px;
+    margin-top: -150px;
+  }
+  
+  .flo{
+    display: flex;
+    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-top: -80px;
+    font-size: small;
+    justify-items: left;
+    flex-direction: column;
+  }
+  
+  .people1{
+    margin-top: 200px;
     margin-left: 200px;
-    box-sizing: border-box;
-    margin-top: 30px;
-    text-align: center;
-    font-size: larger;
-    border-radius: 10px;
-    display: grid;
-}
-.img2{
-    margin-top: 20px;
-    margin-left: 50px;
-}
-.media{
-    background-color: darkblue;
-    color: white;
-    width: 460px;
-    height: 300px;
-    margin-left: 475px;
-    margin-top: -830px;
-    text-align: center;
-    padding-top: 30px;
-    box-sizing: border-box;
-    font-size: 35px;
-    border-radius: 10px;
-    display: grid;
-}
-.over{
-    margin-top: -50px;
-    font-size: 20px;
-}
-.img3{
-    margin-left: 100px;
-    margin-top: -20px;
-}
+  }
+  
+  .user{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    font-size: large;
+    color: black;
+    padding-right: 400px;
+    padding-top: 200px;
+  }
+  
+  .people2{
+    margin-left: 650px;
+    margin-top: -150px;
+  }
+  
+  .com{
+    padding-left: 300px;
+    padding-top: 200px;
+  }
 
-.social{
-    background-color: bisque;
-    color: black;
-    width: 260px;
-    height: 560px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 960px;
-    margin-top: -300px;
-    text-align: center;
+  .box2{
+      height: 60px;
+    width: 300px;
+    background-color:hsl(321, 100%, 78%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 60px;
     font-size: 20px;
-    display: grid;
-}
-.img4{
-   padding-top: 40px;
-   margin-left: 30px;
-   overflow: hidden; 
-}
-.acc{
-    background-color: gray;
-    color: black;
-    width: 220px;
-    height: 250px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 480px;
-    margin-top: -240px;
+  }
+  .footer{
+    margin-top: 70px;
+    background-image: url("./design/desktop-design.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 250vh;
+    margin-left: -500px;
+  }
+
+  .hud{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
     font-size: 25px;
-    text-align: center;
-    display: grid;
-}
-.fas{
-    background-color: gray;
-    color: black;
-    width: 220px;
-    height: 250px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 480px;
-    text-align: center;
-    font-size: larger;
-    margin-top: 20px;
-    display: grid;
-}
-.main{
-    background-color: orangered;
-    color: black;
-    width: 220px;
-    height: 250px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    text-align: center;
-    font-size: larger;
-    margin-left: 720px;
-    margin-top: -520px;
-    display: grid;
-}
+    gap: 5px;
+  }
 
-.grow{
-    background-color: darkblue;
+  .mes{
+    padding-top: 240px;
+    margin-left: 70px;
     color: white;
-    width: 510px;
-    height: 255px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    margin-left: 720px;
-    margin-top: 20px;
-    display: grid;
-}
-.flo{
-margin-left: 250px;
-font-size: 35px;
-margin-top: -150px;
-}
-.img8{
- margin-left: 20px;
- margin-top: 20px;
+  }
+  
+  .call{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .mail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .icons{
+    display: flex;
+    gap: 20px;
+  }
+
+  .news{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-top: -380px;
+    margin-left: 100px;
+    color: white;
+  }
+  .box3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  input{
+    height: 40px;
+    width: 280px;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .sub{
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: hsl(321, 100%, 78%);
+    margin-top: 50px;
+    padding-left: 20px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  }
+  .sub a{
+    color: white;
+  }
+ 
+@media only screen and (min-width :500px) {
+  body{
+    background: blue;
+  }
+  .fan{
+    padding-left: 500px;
+  }
 }
