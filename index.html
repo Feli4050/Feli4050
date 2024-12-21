@@ -1,31 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO DO</title>
-    <link rel="stylesheet" href="./styles.css">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div class="container">
-        <div class="todo-app">
-            <h2>To-Do List</h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add your text">
-                <button onclick="addTask()">Add</button>
-            </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> -->
 
+<body>
+    <header>
+        <div class="container">
+            <img style="margin-left: 20px; width: 200px; float: left;justify-items: left;"
+                src="./bootstrap-5.3.3-dist/images/LOGO DESIGN.png" alt="">
+            <h1>FELISTER NZILANI-SOFTWARE DEVELOPER and GRAPHIC DESIGNER
+
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="one">
+            <h1>I'm Felisters Nzilani</h1>
+            <h2 aria-label="Hi I'm a software developer" class="typing" style="color: aqua;">I'm a
+                &nbsp;<span style="color: #1de5ff;" class="typewriter thick"></span>
+            </h2>
+            <p>
+                I am passionate software developer with a strong foundation in programming
+                and software development principles.
+            </p>
+
+            <div class="link">
+                <button><a href="https://github.com/Feli4050/Feli4050" target="_blank">More info</a></button>
+                <button id="link"><a href="./pages/contact.html">Hire Me</a></button>
+            </div>
+           
+        </div>
+        <div class="two">
+            <img src="./images/feli.img.png" alt="">
+        </div>
+    </section>
+    
+    <section id="about" out" class="about">
+        <div class="container">
+            <h2>About me</h2>
+            <p>I’m Felisters a software Developer with enterprise experience for over 2 years.
+                My aim is to create different responsive websites,i.e Website developing,
+                front-end developing and many more am alsoI am a passionate software developer specializing in website
+                developing.I believe in creating meaningful user-centered
+                developing that solve real world problems and inspire creativity.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Coding languages:Html,Css, Javascript,Node js, React... <br>
+                </li>
+                <li>Database Knowledge</li>
+                <li>Graphic design</li>
+                <li>Branding</li>
             </ul>
         </div>
-    </div>
-    
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Responsive websites</h3>
+                <p>My experience in developing responsive website have made me become an expert developer
+                    in creating different website,i.e Car website
+                </p>
+
+            </div>
+            <div class="project">
+                <h3>Coding</h3>
+                <p>
+                    My experience in coding have made me become an expert developer
+                    in implementing features and solving problems,i.e Html,CSS,JS and so on.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Design</h3>
+                <p>
+                    The following are some of the projects that have recently worked on as I tried to expand my mind
+                    and build my creativity.
+                </p>
+            </div>
+        </div>
+        <section class="mt-5">
+            <h3 class="text-center mb-4">Recent projects</h3>
+            <div class="row">
+                <div class="col-Lg 4 col-md 6 b-4d">
+                    <div class="card">
+                        <img src="./images/Felisters code in 44 mins.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">classic design</h5>
+                            <P class="card-text">
+                                Where ambitions is formed and goals are formed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second project -->
+                <div class="col-Lg 4 col-md 6 b-4d">
+                    <div class="card">
+                        <img src="./images/car website.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">classic design</h5>
+                            <P class="card-text">
+                                Meet my experience in design an expert work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third project -->
+                <div class="col-Lg 4 col-md 6 b-4d">
+                    <div class="card">
+                      <img src="./images/kitchen website.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">classic design</h5>
+                            <P class="card-text">
+                                The only glipmse of my heart.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-
-    <script src="./index.js"></script>
+       
+        <section class="contact" id="contact">
+            <h2 class="heading">contact <span>Me</span></h2>
+        
+            <form action="">
+                <div class="input-group">
+                    <div class="imput-box">
+                   <input type="text" placeholder="Full Name">
+                   <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                   <input type="number" placeholder="Phone Number">
+                   <input type="text" placeholder="Subject">
+                    </div>
+                </div>
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
+                    </textarea>
+                   <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        <footer>
+            <div class="cta">
+                <p>&copy;2024 Felisters Nzilani.All Rights Reserved.</p>
+                <p>Follow me on:
+                    <a href="https://www.linkedin.com/in/felisters-nzilani-2a3162338/" target="_blank">linkedin</a>
+                    <img width="50px" src="./images/5296501_linkedin_network_linkedin logo_icon.png" alt="">
+                    <a href="https://github.com/Feli4050/Feli4050" target="_blank">Github</a>
+                    <img width="50px" src="./images/211904_social_github_icon.png" alt="">
+                    <a href="https://www.instagram.com/feshynzil/?next=%2F&hl=en" target="_blank">Instagram</a>
+                    <img width="50px" src="./images/1298747_instagram_brand_logo_social media_icon.png" alt="">
+                </p>
+            </div>
+        </footer>
 </body>
+
 </html>
